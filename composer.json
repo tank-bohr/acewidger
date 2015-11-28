@@ -1,0 +1,31 @@
+{
+  "name": "tank-bohr/acewidger",
+  "description": "Single pair shortest path problem solution",
+  "type": "library",
+  "homepage": "http://github.com/tank-bohr/acewidger",
+  "support": {
+    "issues": "https://github.com/tank-bohr/acewidger/issues",
+    "source": "https://github.com/tank-bohr/acewidger"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Nikitin",
+      "email": "tank@bohr.su"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acewidger\\": "src/Acewidger/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
